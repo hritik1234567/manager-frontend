@@ -1,0 +1,70 @@
+/* Container to split the page into image and form sections */
+.login-page {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Image container with background image */
+.image-container {
+    flex: 1;
+    overflow: hidden; /* Ensure image does not overflow */
+    background-image: url('../../public/healthmetric.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Form container with light background */
+.form-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #efeded; /* Light background for form */
+}
+
+/* Form box with gradient background */
+.login-box {
+    max-width: 500px;
+    width: 100%;
+    padding: 2rem;
+    background: linear-gradient(105deg, #357fa1, #2d9cdb); /* Gradient background */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for better visual depth */
+}
+.login-box h2{
+    color: #08153e;
+}
+/* Primary button style */
+.btn-primary {
+    background-color: #08153e; /* Primary button color */
+    border-color: #0a2e54;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker color on hover */
+    border-color: #004085;
+}
+
+/* Secondary button style */
+.btn-secondary {
+    background-color: #08153e; /* Primary button color */
+    border-color: #0a2e54;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268; /* Darker color on hover */
+    border-color: #545b62;
+}
+
+/* Optional form styling */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input {
+    border-radius: 5px;
+}

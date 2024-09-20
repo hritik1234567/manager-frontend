@@ -1,0 +1,56 @@
+/* Navbar styles */
+.navbar {
+    border-bottom: 1px solid #ddd; /* Light border for separation */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem; /* Larger font size for brand name */
+  }
+  
+  .navbar-nav {
+    font-size: 1.2rem; /* Slightly larger font size for nav items */
+  }
+  
+  .nav-link {
+    margin: 0 10px; /* Spacing between nav items */
+  }
+  
+  .btn-outline-primary {
+    border-color: #357fa1; /* Border color for outline button */
+    color: #357fa1; /* Text color for outline button */
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #357fa1; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+  }
+  
+  .btn-primary {
+    background-color: #357fa1; /* Background color for primary button */
+    border-color: #357fa1;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2d9cdb; /* Darker color on hover */
+    border-color: #2d9cdb;
+  }
+/* Navbar styles */
+.navbar-nav .nav-link.active {
+    font-weight: bold; /* Make active link bold */
+    color: #2d9cdb !important; /* Change text color for active link */
+  }
+  
+  /* Optional: Styling for buttons if needed */
+  .btn-outline-primary.active,
+  .btn-primary.active {
+    background-color: #357fa1; /* Active button background */
+    border-color: #357fa1; /* Active button border */
+  }
+  
+  .btn-outline-primary:hover,
+  .btn-primary:hover {
+    background-color: #2d9cdb; /* Button background on hover */
+    border-color: #2d9cdb; /* Button border on hover */
+  }
+    
